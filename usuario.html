@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+
+<body>
+    
+    <header>
+        <div id="usuario-div">
+            <p id="usuario">CADASTRE-SE</p>
+        </div>
+        <label for="nome"></label>
+        <input 
+            type="text" 
+            name="nome" 
+            id="nome"
+            placeholder="Nome"
+            minlength="5"
+            required
+        >
+        <label for="email"></label>
+            <input 
+                type="text" 
+                name="email" 
+                id="email"
+                placeholder="E-mail"
+                pattern="^[^\s@]{1,}@[^@\s]{2,}\.[^\s@]{2,}$"
+                title="o e-mail deve conter @"
+                required
+            >
+        
+        <button id="botaoSalvar">Salvar</button>  
+        
+        <div id="content">
+            <input 
+            type="text" 
+            name="nome" 
+            id="nome"
+            placeholder="Nome"
+            minlength="5"
+            required
+        >
+        <input 
+        type="text" 
+        name="email" 
+        id="email"
+        placeholder="E-mail"
+        minlength="5"
+        required
+    >
+        <button id="botaoEditar">Editar</button>
+        <button id="botaoExcluir">Excluir</button>    
+    </header>
+    
+</body>
+</html>
+
+
+        
+ 
